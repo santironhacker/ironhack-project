@@ -1,0 +1,73 @@
+body {
+    font-family: helvetica;   
+    background: rgb(244, 248, 249);
+}
+
+/* Main border */ 
+.border {
+    border: 2px solid rgb(225, 232, 237);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 25px;
+    width: 550px;
+    }
+
+/* Top structure */
+.profile-picture {
+    float: left;
+    margin-right: 20px;
+}
+
+.account-details {
+    float: left;
+    line-height: 1.5;
+}
+
+    .username {
+        color: rgb(0, 0, 0);
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .at {
+        color: rgb(104, 109, 129);
+        font-size: 22px;        
+    }
+
+.follow {
+    border: 2px solid rgb(85, 172, 238);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: rgb(85, 172, 238);
+    float: right;
+}
+
+    .twitter-logo {
+        vertical-align: middle;
+    }
+
+.general-container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* central-bottom section */
+.tweet {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.date-retuit {
+    color: rgb(105, 120, 130);
+}
+
+.logo-option {
+    vertical-align: middle;
+    height: 15px;
+}
+
+.retuit {
+    padding: 0px 15px;
+}
